@@ -16,6 +16,8 @@ public class SpawnManager : MonoBehaviour
     {
 
     }
+
+    // Spawn random enemeies at random locations
     void RandomSpawn()
     {
         int enemyIndex;
@@ -23,6 +25,6 @@ public class SpawnManager : MonoBehaviour
         float rangeZ = 2.0f;
         enemyIndex = Random.Range(0, enemyPrefabs.Length);
         spawnPos = Random.Range(-rangeZ, rangeZ);
-        Instantiate(enemyPrefabs[enemyIndex], new Vector3(5.5f, transform.position.y, spawnPos), enemyPrefabs[enemyIndex].transform.rotation);
+        Instantiate(enemyPrefabs[enemyIndex], new Vector3(5.5f, 0.35f, spawnPos), enemyPrefabs[enemyIndex].transform.rotation);
     }
 }

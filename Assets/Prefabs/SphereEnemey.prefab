@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4522764599443165186}
   - component: {fileID: 5486468482762992667}
   - component: {fileID: 2602810876796767154}
+  - component: {fileID: 1731892288136980402}
   m_Layer: 0
   m_Name: SphereEnemey
   m_TagString: Untagged
@@ -104,7 +105,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -133,5 +134,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b010c512af4fc46c680b66d7b57d7206, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1731892288136980402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991432487724144124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c21f421bd88499f906f71a35e23c42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

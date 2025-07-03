@@ -31,6 +31,7 @@ public class OutOfBounds : MonoBehaviour
         if (transform.position.x < -rangeX)
         {
             Destroy(gameObject);
+            Debug.Log("Game Over");
         }
     }
 }
